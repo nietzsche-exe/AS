@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <!-- Menú contextual para Cataluña -->
+    <item
+        android:id="@+id/Cataluna"
+        android:title="Cataluña">
+        <menu>
+            <!-- Submenú para Barcelona -->
+            <item
+                android:id="@+id/Barcelona"
+                android:title="Barcelona">
+                <menu>
+                    <item
+                        android:id="@+id/Alella"
+                        android:title="Alella"/>
+                    <item
+                        android:id="@+id/Aiguafreda"
+                        android:title="Aiguafreda"/>
+                    <item
+                        android:id="@+id/Alpens"
+                        android:title="Alpens"/>
+                </menu>
+            </item>
+            <!-- Submenú para Girona -->
+            <item
+                android:id="@+id/Girona"
+                android:title="Girona">
+                <menu>
+                    <item
+                        android:id="@+id/Santa_Pau"
+                        android:title="Santa Pau" />
+                    <item
+                        android:id="@+id/Portbou"
+                        android:title="Portbou" />
+                    <item
+                        android:id="@+id/Colera"
+                        android:title="Colera" />
+                </menu>
+            </item>
+            <!-- Submenú para Lleida -->
+            <item
+                android:id="@+id/Lleida"
+                android:title="Lleida">
+                <menu>
+                    <item
+                        android:id="@+id/Adons"
+                        android:title="Adons" />
+                    <item
+                        android:id="@+id/Adrall"
+                        android:title="Adrall" />
+                    <item
+                        android:id="@+id/Agramunt"
+                        android:title="Agramunt" />
+                </menu>
+            </item>
+            <!-- Submenú para Tarragona -->
+            <item
+                android:id="@+id/Tarragona"
+                android:title="Tarragona">
+                <menu>
+                    <item
+                        android:id="@+id/Altafulla"
+                        android:title="Altafulla" />
+                    <item
+                        android:id="@+id/Creixell"
+                        android:title="Creixell" />
+                    <item
+                        android:id="@+id/els_Pallaresos"
+                        android:title="els Pallaresos" />
+                </menu>
+            </item>
+        </menu>
+    </item>
+
+    <!-- Menú contextual para Madrid -->
+    <item
+        android:id="@+id/Madrid"
+        android:title="Madrid">
+        <menu>
+            <!-- Submenú para Comunidad Madrid -->
+                    <item
+                        android:id="@+id/Alcobendas"
+                        android:title="Alcobendas" />
+                    <item
+                        android:id="@+id/Mejorada_del_Campo"
+                        android:title="Mejorada del Campo" />
+                    <item
+                        android:id="@+id/Parla"
+                        android:title="Parla" />
+                </menu>
+    </item>
+
+    <!-- Menú contextual para Aragón -->
+    <item
+        android:id="@+id/Aragon"
+        android:title="Aragón">
+        <menu>
+            <!-- Submenú para Huesca -->
+            <item
+                android:id="@+id/Huesca"
+                android:title="Huesca">
+                <menu>
+                    <item
+                        android:id="@+id/Alquezar"
+                        android:title="Alquezar" />
+                    <item
+                        android:id="@+id/Ainsa"
+                        android:title="Ainsa" />
+                    <item
+                        android:id="@+id/Torla"
+                        android:title="Torla" />
+                </menu>
+            </item>
+            <!-- Submenú para Teruel -->
+            <item
+                android:id="@+id/Teruel"
+                android:title="Teruel">
+                <menu>
+                    <item
+                        android:id="@+id/Albarracin"
+                        android:title="Albarracín" />
+                    <item
+                        android:id="@+id/Valderrobres"
+                        android:title="Valderrobres" />
+                    <item
+                        android:id="@+id/Calaceite"
+                        android:title="Calaceite" />
+                </menu>
+            </item>
+            <!-- Submenú para Zaragoza -->
+            <item
+                android:id="@+id/Zaragoza"
+                android:title="Zaragoza">
+                <menu>
+                    <item
+                        android:id="@+id/Sos_del_Rey_Catolico"
+                        android:title="Sos del Rey Católico" />
+                    <item
+                        android:id="@+id/Uncastillo"
+                        android:title="Uncastillo" />
+                    <item
+                        android:id="@+id/Anento"
+                        android:title="Anento" />
+                </menu>
+            </item>
+        </menu>
+    </item>
+
+</menu>
+
