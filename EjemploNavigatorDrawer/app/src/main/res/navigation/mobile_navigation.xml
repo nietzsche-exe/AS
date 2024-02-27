@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="es.ciudadescolar.ejemplonavigatordrawer.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="es.ciudadescolar.ejemplonavigatordrawer.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="es.ciudadescolar.ejemplonavigatordrawer.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/fragmentVerde"
+        android:name="es.ciudadescolar.ejemplonavigatordrawer.FragmentVerde"
+        android:label="fragment_verde"
+        tools:layout="@layout/fragment_verde" />
+    <fragment
+        android:id="@+id/itemFragmentList"
+        android:name="es.ciudadescolar.ejemplonavigatordrawer.ItemFragmentList"
+        android:label="fragment_item_list_list"
+        tools:layout="@layout/fragment_item_list_list" />
+    <fragment
+        android:id="@+id/fragmentExit"
+        android:name="es.ciudadescolar.ejemplonavigatordrawer.FragmentExit"
+        android:label="fragment_exit"
+        tools:layout="@layout/fragment_exit" />
+</navigation>
